@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "indiavspakistanmod",
+	"version": "1.0.0",
+	"name": "India vs Pakistan Mod",
+	"description": "A team-based PvP mod featuring India and Pakistan teams with protection and statistics",
+	"authors": [
+		"Manus"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/indiavspakistanmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.manus.indvspak.IndiaVsPakistanMod"
+		]
+	},
+	"mixins": [
+		"indiavspakistanmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.0",
+		"minecraft": "~1.21.0",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
